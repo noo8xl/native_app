@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { View, TextInput, Button, Text } from 'react-native'
 import { globalStyles } from '../styles/styles'
 
-const Form = () => {
+const Login = () => {
     const [login, setLogin] = useState('')
     const [password, setPassword] = useState('')
 
@@ -55,4 +55,4 @@ const Form = () => {
    )
 }
 
-export default Form
+export default Login

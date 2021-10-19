@@ -1,17 +1,15 @@
 import React from 'react'
 import { Text, View, Button, StyleSheet } from 'react-native'
 import { globalStyles } from '../styles/styles'
-import Form from './Form'
+import Login from './Login'
+import AuthPage from '../containers/AuthPage'
 
-const Main = ({navigation}) => {
-    const onSettingsPress = () => {
-        navigation.navigate('Settings')
-    }
+const Main = () => {
     
    return (
        <View style={globalStyles.page}>
            <View>
-               <Form />
+                <AuthPage/>
            </View>
        </View>
    )
