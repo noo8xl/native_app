@@ -1,8 +1,0 @@
-{
-  "compolerOptions": {
-    "noEmitOnError": true,
-    "esModuleInterop": true,
-    "target": "es5",
-    "watch": true
-  }
-}
